@@ -1,0 +1,61 @@
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC
+$ git config --global user.name "parulm1"
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC
+$ git config --global user.email "parulmankr777@gmail.com"
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC
+$ git init
+Initialized empty Git repository in C:/Users/HP/Desktop/CDAC/.git/
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ ls -a
+./  ../  .git/
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git add .
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   new.txt.txt
+
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git commit -m "initial commit"
+[master (root-commit) 8583956] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.txt.txt
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$ git log
+commit 858395621b4e7025ff8633db5e8ed6e4c7682726 (HEAD -> master)
+Author: parulm1 <parulmankr777@gmail.com>
+Date:   Wed Sep 13 17:34:29 2023 +0530
+
+    initial commit
+
+HP@RADHA-MADHAV MINGW64 ~/Desktop/CDAC (master)
+$
